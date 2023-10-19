@@ -7,12 +7,12 @@ import mysql.connector
 
 import os
 
-DATABASE_REGION = 'us-east-1'
-DATABASE_CERT = 'cert/us-east-1-bundle.pem'
+DATABASE_REGION = 'eu-west-1'
 DATABASE_HOST = os.environ['DATABASE_HOST']
 DATABASE_PORT = os.environ['DATABASE_PORT']
 DATABASE_USER = os.environ['DATABASE_USER']
 DATABASE_NAME = os.environ['DATABASE_NAME']
+PASSWD = os.environ['PASSWD']
 
 os.environ['LIBMYSQL_ENABLE_CLEARTEXT_PLUGIN'] = '1'
 
