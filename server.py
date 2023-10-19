@@ -30,7 +30,7 @@ try:
     mydb =  mysql.connector.connect(
         host=DATABASE_HOST,
         user=DATABASE_USER,
-        passwd=token,
+        passwd=PASSWD,
         port=DATABASE_PORT,
         database=DATABASE_NAME,
         ssl_ca=DATABASE_CERT
